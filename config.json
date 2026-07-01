@@ -58,6 +58,20 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "rest-apis-fastapi",
+      "title": "REST APIs with FastAPI",
+      "description": "Build a REST API using FastAPI and Pydantic",
+      "path": "assignments/rest-apis-fastapi",
+      "dueDate": "2026-07-08",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
