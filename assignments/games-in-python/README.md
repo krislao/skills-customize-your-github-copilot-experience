@@ -1,42 +1,34 @@
 
-# 🎮 Hangman — Games in Python
+# 📘 Assignment: Hangman
 
-## Objective
+## 🎯 Objective
 
-Build a command-line Hangman game to practice string manipulation, loops, conditionals, and user input.
+Build a command-line Hangman game where students practice string manipulation, loops, conditionals, and user input.
 
-## Tasks
+## 📝 Tasks
 
-- Task: Implement game loop
-	- Description: Prompt the player for letter guesses, update and display the puzzle state, and track remaining attempts.
-- Task: Word selection
-	- Description: Randomly choose a secret word from a predefined list.
+### 🛠️	Implement game loop and input handling
 
-## Requirements
+#### Description
+Prompt the player for single-letter guesses, reveal correctly guessed letters in the puzzle display, and track remaining incorrect attempts.
 
-- Randomly select words from a predefined list.
-- Accept single-letter guesses and display the current progress in a spaced format (e.g. _ a _ _ m a n).
-- Track and display incorrect guesses remaining.
-- Prevent repeated penalties for the same incorrect letter.
-- End the game when the word is guessed or attempts are exhausted and show a win/lose message.
+#### Requirements
+Completed program should:
 
-## Starter Files
+- Accept single-letter input and ignore invalid entries.
+- Update and display the puzzle state with spaces between letters (for example: `_ a _ _ m a n`).
+- Track incorrect guesses and display remaining attempts.
+- Prevent duplicate penalties for repeated incorrect letters.
 
-- `starter-code.py` — starting point for your implementation.
+### 🛠️	Word selection and game state
 
-## Example
+#### Description
+Randomly select a secret word and maintain game state (guessed letters, remaining attempts, win/lose condition).
 
-- Input sequence (example): `a`, `e`, `i`, `o`, `u`, `h`, `n`, `g`, `m`
-- Example output excerpt:
+#### Requirements
+Completed program should:
 
-	Word: _ a _ _ m a n
-	Incorrect guesses left: 3
+- Randomly choose a word from a predefined list.
+- Maintain a set of guessed letters and the current revealed state of the word.
+- End the game when the word is fully revealed or when attempts are exhausted, then display a clear win or lose message.
 
-## Hints
-
-- Use `random.choice()` to pick a word.
-- Store guessed letters in a set to avoid duplicate penalties.
-
-## Learning Outcomes
-
-- Practice working with strings, control flow, and user interaction in Python.
