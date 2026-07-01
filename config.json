@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "pytest-basics",
+      "title": "Testing with pytest",
+      "description": "Write and run pytest tests for simple utility functions",
+      "path": "assignments/pytest-basics",
+      "dueDate": "2026-07-08",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "math_utils.py",
+          "type": "python"
+        },
+        {
+          "name": "Test Suite",
+          "file": "tests/test_math_utils.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
